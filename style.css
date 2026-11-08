@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A65D33;
+    font-size: 1.6rem;
+    color: #0d0d0d;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80px;
+    padding: 10px 20px;
+    background-color: #EBDDCC;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.logo {
+    padding-left: 20px;
+    color: #A65D33;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #0d0d0d;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style: none;
+}
+
+.navbar a:link,
+.navbar a:visited {
+    display: block;
+    padding: 10px 15px;
+    color: #462018;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:focus-visible {
+    background-color: #7F9951;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 420px;
+    background-image: url("../img/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding: 40px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px 20px;
+    scroll-margin-top: 80px;
+}
+
+#about {
+    background-color: #EBDDCC;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+#gallery {
+    display: block;
+    background-color: #F2C894;
+    text-align: center;
+}
+
+#gallery img {
+    display: inline-block;
+    width: min(400px, 100%);
+    height: 300px;
+    margin: 15px;
+    border: 2px solid #A65D33;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(14, 14, 14, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#brazil {
+    display: block;
+    background-color: #8db647;
+    text-align: center;
+}
+
+#brazil figure {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: left;
+}
+
+#brazil figure img {
+    flex: 0 1 418px;
+    width: min(418px, 48%);
+    height: 350px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 5px 5px 20px rgba(14, 14, 14, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#brazil figure figcaption {
+    flex: 1;
+}
+
+#brazil figure h1 {
+    padding: 15px 0;
+    text-align: left;
+}
+
+.Brasili { color: #fbff04; }
+.Nho { color: #048319; }
+.Clothes { color: #0c438b; }
+
+#brazil > p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+#brazil figure p {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#brazil button,
+#contact button {
+    width: 100%;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    background-color: #0c438b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact {
+    align-items: center;
+    background-color: #EBDDCC;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+#contact label {
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1.6rem;
+    border: 1px solid #b8a995;
+    border-radius: 8px;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button {
+    background-color: #7F9951;
+}
+
+#contact button:hover,
+#contact button:focus-visible,
+#brazil button:hover,
+#brazil button:focus-visible {
+    background-color: #0d0d0d;
+}
+
+footer {
+    padding: 20px;
+    background-color: #EBDDCC;
+    color: #0d0d0d;
+    text-align: center;
+}
+
+.author {
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    header {
+        position: relative;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+
+    .navbar ul {
+        justify-content: center;
+    }
+
+    .navbar a:link,
+    .navbar a:visited {
+        padding: 8px;
+        font-size: 1.5rem;
+    }
+
+    #hero {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    section {
+        padding: 35px 15px;
+    }
+
+    h1 {
+        padding: 25px 10px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: auto;
+        max-height: 320px;
+        margin: 10px 0;
+    }
+
+    #brazil figure {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 20px 0;
+    }
+
+    #brazil figure img {
+        width: 100%;
+        height: auto;
+        max-height: 360px;
+    }
+
+    #brazil figure h1 {
+        text-align: center;
+    }
+}

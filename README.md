@@ -2,6 +2,10 @@
 
 Site desenvolvido para uma loja fictícia de produtos e roupinhas para animais de estimação, com destaque para uma coleção temática de roupas para porquinhos-da-índia.
 
+## Prévia do projeto
+
+![Prévia do PorquiNho Pet](img/preview.png)
+
 ## 📌 Sobre o projeto
 
 O PorquiNho Pet é um projeto de desenvolvimento web que apresenta uma loja fictícia com identidade visual acolhedora. O site reúne informações sobre a loja, galeria de imagens, localização e uma coleção especial de roupinhas inspiradas no Brasil.

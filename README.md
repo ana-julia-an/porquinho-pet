@@ -36,6 +36,10 @@ O projeto apresenta cinco modelos:
 ## 🚀 Como visualizar o projeto
 
 1. Faça o download ou clone este repositório.
+   Clone o repositório:
+   ```bash
+   git clone https://github.com/ana-julia-an/porquinho-pet.git
+   
 2. Abra o arquivo `index.html` no navegador.
 3. Navegue pelas seções para conhecer o projeto.
 

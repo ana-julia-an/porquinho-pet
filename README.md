@@ -51,4 +51,6 @@ Este é um projeto demonstrativo. Os botões de compra e o formulário de contat
 
 Desenvolvido por **Ana Júlia Andrade**.
 
+Link para visualizar o site: https://ana-julia-an.github.io/porquinho-pet/ 
+
 Projeto acadêmico desenvolvido para praticar HTML e CSS.
